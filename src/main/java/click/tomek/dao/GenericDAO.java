@@ -10,7 +10,7 @@ public class GenericDAO<E> {
 	private Class<E> type;
 
 	@PersistenceContext
-	private EntityManager em;
+	protected EntityManager em;
 
 	public GenericDAO(Class<E> type) {
 		this.type = type;

@@ -141,6 +141,6 @@
     </dependencies>
 
     <build>
-        <finalName>daoSample</finalName>
+        <finalName>dao</finalName>
     </build>
 </project>
